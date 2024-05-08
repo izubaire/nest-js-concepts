@@ -57,6 +57,9 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+## Important command
+# create dto file without test file
+$ nest g class coffees/dto/create-coffee.dto --no-spec
 
 ## Support
 
