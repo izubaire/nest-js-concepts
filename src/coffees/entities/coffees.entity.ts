@@ -13,6 +13,8 @@ export class Coffee {
   id: number;
   @Column()
   name: string;
+  @Column({ default: 0 })
+  recommendation: number;
   @Column()
   brand: string;
   @JoinTable()
