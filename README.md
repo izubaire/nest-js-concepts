@@ -57,6 +57,19 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## Migration
+
+```bash
+# Build Application
+$ npm run build
+
+# Generate Migration
+$ npm run migration:generate --name=USER
+
+# Run Migration
+$ npm run migration:run
+```
 ## Important command
 # create dto file without test file
 $ nest g class coffees/dto/create-coffee.dto --no-spec
